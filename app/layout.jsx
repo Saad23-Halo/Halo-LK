@@ -37,7 +37,7 @@ export default function RootLayout({ children }) {
           href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap"
           rel="stylesheet"
         />
-        <link rel="icon" href="./favicon.ico" />
+        <link rel="icon" href="./favicon.ico" sizes="16x16"/>
       </head>
       <body>
         <main>

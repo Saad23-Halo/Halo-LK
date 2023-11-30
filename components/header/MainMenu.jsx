@@ -1,6 +1,7 @@
 import Link from "next/link";
 
-import {
+import
+ {
   homeItems,
   blogItems,
   pageItems,
@@ -48,7 +49,7 @@ const MainMenu = ({ style = "" }) => {
         {/* End home page menu */}
 
         <li className={isActiveParent ? "menu-item-has-children -has-mega-menu current":'menu-item-has-children -has-mega-menu'}>
-          <a href="#">
+          <a>
             <span className="mr-10">Holidays</span>
             <i className="icon icon-chevron-sm-down" />
           </a>
@@ -92,7 +93,7 @@ const MainMenu = ({ style = "" }) => {
             isActiveParentChaild(pageItems, pathname) ? "current" : ""
           } menu-item-has-children`}
         >
-          <a href="#">
+          <a>
             <span className="mr-10">More</span>
             <i className="icon icon-chevron-sm-down" />
           </a>
