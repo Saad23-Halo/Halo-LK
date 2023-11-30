@@ -11,8 +11,8 @@ import PopularDestinations from "@/components/destinations/PopularDestinations";
 import Testimonial from "@/components/home/home-4/Testimonial";
 
 export const metadata = {
-  title: "Halo Holidays || Here For You",
-  description: "Halo Holidays - Travel & Tour ",
+  title: "Halo Flights LK || Here For You",
+  description: "Halo Flights LK || Here For You",
 };
 
 const home_3 = () => {

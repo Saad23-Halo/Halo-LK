@@ -12,8 +12,8 @@ import Counter2 from "@/components/counter/Counter2";
 import Brand from "@/components/brand/Brand";
 
 export const metadata = {
-  title: "About || Halo Holidays - Here For You",
-  description: "About || Halo Holidays",
+  title: "About || Halo Flights LK - Here For You",
+  description: "About || Halo Flights LK",
 };
 
 const About = () => {

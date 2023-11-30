@@ -5,8 +5,8 @@ import DefaultFooter from "@/components/footer/default";
 import NotFound from "@/components/common/NotFound";
 
 export const metadata = {
-  title: "404 || Halo Holidays - Here For You",
-  description: "404 || Halo Holidays",
+  title: "404 || Halo Flights LK - Here For You",
+  description: "404 || Halo Flights LK",
 };
 
 const index = () => {

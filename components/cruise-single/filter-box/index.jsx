@@ -1,3 +1,5 @@
+import Link from "next/link";
+import Popup from "@/components/Popup/pop";
 
 const HighlightList = () => {
   return (
@@ -14,10 +16,14 @@ const HighlightList = () => {
       
 
       <div className="col-12">
-        <button className="button -dark-2 py-15 px-35 h-40 col-12 rounded-4 bg-blue-1 text-white">
+        <Link
+        href=""
+        className="button -dark-2 py-15 px-35 h-40 col-12 rounded-4 bg-blue-1">
+        <button className="text-white">  
           
           Enquire Now
         </button>
+        </Link>
       </div>
       {/* End col-12 search button_item */}
     </>

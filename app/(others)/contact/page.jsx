@@ -9,8 +9,8 @@ import ContactForm from "@/components/common/ContactForm";
 import LocationTopBar from "@/components/common/LocationTopBar";
 
 export const metadata = {
-  title: "Contact || Halo Holidays - Here For You",
-  description: "Contact || Halo Holidays",
+  title: "Contact || Halo Flights LK - Here For You",
+  description: "Contact || Halo Flights LK",
 };
 
 const Contact = () => {

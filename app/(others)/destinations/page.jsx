@@ -22,8 +22,8 @@ import Rentals from "@/components/rentals/Rentals";
 import Hotels from "@/components/hotels/Hotels2";
 
 export const metadata = {
-  title: "Destinations || Halo Holidays - Here For You",
-  description: "Destinations || Halo Holidays",
+  title: "Destinations || Halo Flights LK - Here For You",
+  description: "Destinations || Halo Flights LK",
 };
 
 const Destinations = () => {

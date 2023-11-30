@@ -6,8 +6,8 @@ import DefaultFooter from "@/components/footer/default";
 import Blog1 from "@/components/blog/Blog1";
 
 export const metadata = {
-  title: "Blog || Halo Holidays - Here For You",
-  description: "Blog || Halo Holidays",
+  title: "Blog || Halo Flights LK - Here For You",
+  description: "Blog || Halo Flights LK",
 };
 
 const BlogListV1 = () => {
