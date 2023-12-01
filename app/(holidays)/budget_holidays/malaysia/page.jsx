@@ -1,28 +1,28 @@
 import dynamic from "next/dynamic";
 import "photoswipe/dist/photoswipe.css";
-import cruiseData from "@/data/cruise";
+import holidayData from "@/data/holidays";
 import Header3 from "@/components/header/header-3";
-import Overview from "@/components/cruise-single/Overview";
-import TopBreadCrumb from "@/components/cruise-single/TopBreadCrumb";
-import SidebarRight from "@/components/cruise-single/SidebarRight";
-import ReviewProgress from "@/components/cruise-single/guest-reviews/ReviewProgress";
-import DetailsReview from "@/components/cruise-single/guest-reviews/DetailsReview";
-import ReplyForm from "@/components/cruise-single/ReplyForm";
-import ReplyFormReview from "@/components/cruise-single/ReplyFormReview";
-import Facilities from "@/components/cruise-single/Facilities";
+import Overview from "@/components/holidays/malaysia/Overview";
+import TopBreadCrumb from "@/components/holidays/malaysia/TopBreadCrumb";
+import SidebarRight from "@/components/holidays/malaysia/SidebarRight";
+import ReviewProgress from "@/components/holidays/malaysia/guest-reviews/ReviewProgress";
+import DetailsReview from "@/components/holidays/malaysia/guest-reviews/DetailsReview";
+import ReplyForm from "@/components/holidays/malaysia/ReplyForm";
+import ReplyFormReview from "@/components/holidays/malaysia/ReplyFormReview";
+import Facilities from "@/components/holidays/malaysia/Facilities";
 import CallToActions from "@/components/common/CallToActions";
 import DefaultFooter from "@/components/footer/default";
-import MapPropertyFinder from "@/components/cruise-single/MapPropertyFinder";
-import GalleryCruiseSlider from "@/components/cruise-single/GalleryCruiseSlider";
+import MapPropertyFinder from "@/components/holidays/malaysia/MapPropertyFinder";
+import GalleryCruiseSlider from "@/components/holidays/malaysia/GalleryCruiseSlider";
 
 export const metadata = {
   title: "All Inclusive Deal || Halo Holidays - Here For You",
   description: "All Inclusive Deal || Halo Holidays",
 };
 
-const CruiseSingleV1Dynamic = ({ params }) => {
-  const id = params.id;
-  const cruise = cruiseData.find((item) => item.id == id);
+const malaysia = () => {
+  const id = 1;
+  const holiday = holidayData.find((item) => item.id == id);
   
 
   return (
@@ -42,14 +42,13 @@ const CruiseSingleV1Dynamic = ({ params }) => {
         <div className="container">
           <div className="row justify-between items-end">
             <div className="col-auto">
-              <h1 className="text-26 fw-600">{cruise?.title}</h1>
+              <h1 className="text-26 fw-600">{holiday?.title}</h1>
               <div className="d-flex x-gap-5 items-center pt-5">
                 <i className="icon-location-2 text-16 text-light-1" />
-                <div className="text-15 text-light-1">{cruise?.location}</div>
                 <button
                   data-x-click="mapFilter"
                   className="text-15 text-blue-1 underline">
-                  Show on map
+                  <a href="#mapSection">Show on Map</a>
                 </button>
               </div>
             </div>
@@ -96,7 +95,7 @@ const CruiseSingleV1Dynamic = ({ params }) => {
             {/* End .col-xl-8 */}
 
             <div className="col-xl-4">
-              <SidebarRight cruise={cruise} />
+              <SidebarRight holiday={holiday} />
               
             </div>
             
@@ -126,7 +125,7 @@ const CruiseSingleV1Dynamic = ({ params }) => {
       </section>
       {/* End facilities */}
 
-      <section className="pt-40">
+      <section id="mapSection" className="pt-40">
         <div className="container">
           <h3 className="text-22 fw-500 mb-20">Cruise Location</h3>
           <div className=" rounded-4 overflow-hidden map-500">
@@ -202,6 +201,6 @@ const CruiseSingleV1Dynamic = ({ params }) => {
   );
 };
 
-export default dynamic(() => Promise.resolve(CruiseSingleV1Dynamic), {
+export default dynamic(() => Promise.resolve(malaysia), {
   ssr: false,
 });
