@@ -15,7 +15,9 @@ const SidebarRight = ({ holiday }) => {
           <div className="d-flex items-center">
             
             <div className="size-40 flex-center bg-blue-1 rounded-4">
+              <a href="/all_inclusive_holidays/malaysia#hol-rev">
               <div className="text-14 fw-600 text-white">{holiday?.ratings}</div>
+              </a>
             </div>
           </div>
           

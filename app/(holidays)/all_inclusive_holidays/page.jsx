@@ -14,11 +14,11 @@ import FilterHotels3 from "@/components/hotels/FilterHotels3";
 import BudgetHero from "@/components/hero/budget-hero";
 
 export const metadata = {
-  title: "Budget Holidays || Halo Flights LK - Here For You",
-  description: "Budget Holidays || Halo Flights LK",
+  title: "All Inclusive Holidays || Halo Flights LK - Here For You",
+  description: "All Inclusive Holidays || Halo Flights LK",
 };
 
-const budget_holidays = () => {
+const all_inclusive_holidays = () => {
   return (
     <>
       {/* End Page Title */}
@@ -163,4 +163,4 @@ const budget_holidays = () => {
   );
 };
 
-export default dynamic(() => Promise.resolve(budget_holidays), { ssr: false });
+export default dynamic(() => Promise.resolve(all_inclusive_holidays), { ssr: false });

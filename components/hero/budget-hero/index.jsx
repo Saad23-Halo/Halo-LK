@@ -16,7 +16,7 @@ const Index = () => {
               data-aos="fade-up"
               data-aos-delay="400"
             >
-             Budget {" "}
+             All Inclusive {" "}
               <span className="text-blue-1 relative">
                Holidays{" "}
                 <span className="-line">

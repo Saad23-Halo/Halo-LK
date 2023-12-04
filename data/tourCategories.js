@@ -37,8 +37,8 @@ export const tourCategories1 = [
   {
     id: 6,
     icon: "icon-hiking",
-    name: "Budget",
+    name: "All_Inclusive",
     dealyAimation: "50",
-    url: "/budget_holidays",
+    url: "/all_inclusive_holidays",
   },
 ];

@@ -137,7 +137,7 @@ const malaysia = () => {
       </section>
       {/* End MapPropertyFinder */}
 
-      <section className="pt-40">
+      <section id="hol-rev" className="pt-40">
         <div className="container">
           <div className="row">
             <div className="col-12">
