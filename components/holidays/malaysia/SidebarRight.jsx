@@ -1,4 +1,4 @@
-import FilterBox from "../../holidays/malaysia/filter-box";
+import FilterBox from "../../holidays/malaysia/filter-box/index";
 import WhatsIncluded from "../../holidays/malaysia/whatsIncluded";
 const SidebarRight = ({ holiday }) => {
   return (

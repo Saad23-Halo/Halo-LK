@@ -3,10 +3,13 @@ import Link from "next/link";
 const HighlightList = () => {
   return (
     <>
-      <div className="col-12">
+      <div className="col-12 pb-20 ">
       <ul class="list list--bullet">
-    <li >Large outdoor swimming pool, hot tub, and multiple bars and restaurants </li>
-    <li >Perfectly situated to explore the area's charms, with a shuttle bus for your convenience </li>
+    <li >Highlight 1</li>
+    <li >Highlight 2</li>
+    <li >Highlight 3</li>
+    <li >Highlight 4</li>
+    <li >Highlight 5</li>
 </ul>
         {/* End Location */}
         

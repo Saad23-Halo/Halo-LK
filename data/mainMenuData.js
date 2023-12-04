@@ -187,7 +187,7 @@ export const categorieMegaMenuItems = [
         id: 1,
         // megaBanner: "/img/backgrounds/8.png",
         // title: "Things to do on your tour",
-        btnText: "See Budget Deals",
+        btnText: "See All Inclusive Deals",
         btnRoute: "/tour-list-v1",
         menuItems: [
           {
@@ -195,15 +195,15 @@ export const categorieMegaMenuItems = [
             // title: "Tour List",
             menuList: [
               {
-                name: "Budget Deal 1",
+                name: "All Inclusive Deal 1",
                 routePath: "/cruise-single/2",
               },
               {
-                name: "Budget Deal 2",
+                name: "All Inclusive Deal 2",
                 routePath: "/cruise-single/2",
               },
               {
-                name: "Budget Deal 3",
+                name: "All Inclusive Deal 3",
                 routePath: "/cruise-single/2",
               },
               
@@ -214,11 +214,11 @@ export const categorieMegaMenuItems = [
             // title: "Tour Pages",
             menuList: [
               {
-                name: "Budget Deal 4",
+                name: "All Inclusive Deal 4",
                 routePath: "/cruise-single/2",
               },
               {
-                name: "Budget Deal 5",
+                name: "All Inclusive Deal 5",
                 routePath: "/cruise-single/2",
               },
             ],

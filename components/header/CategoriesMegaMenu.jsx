@@ -16,7 +16,7 @@ const CategoriesMegaMenu = ({setIsActiveParent}) => {
 
   const itemList = [
     "Family",
-    "Budget",
+    "All Inclusive",
     "Luxury",
     "Honeymoon",
     "Multi-City",

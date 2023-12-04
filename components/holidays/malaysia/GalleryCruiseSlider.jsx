@@ -13,12 +13,12 @@ const GalleryCruiseSlider = () => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
 
   const galleryImage = [
-    "/img/cruises/6.png",
-    "/img/cruises/1.png",
-    "/img/cruises/2.png",
-    "/img/cruises/3.png",
-    "/img/cruises/4.png",
-    "/img/cruises/5.png",
+    "/img/holidays/malaysia/1.png",
+    "/img/holidays/malaysia/2.png",
+    "/img/holidays/malaysia/3.png",
+    "/img/holidays/malaysia/4.png",
+    "/img/holidays/malaysia/5.png",
+    "/img/holidays/malaysia/6.png",
   ];
 
   return (
@@ -42,15 +42,15 @@ const GalleryCruiseSlider = () => {
               {galleryImage.map((item, i) => (
                 <SwiperSlide key={i}>
                   <Item
-                    width={451}
-                    height={375}
+                    width={734}
+                    height={510}
                     original={item}
                     thumbnail={item}
                   >
                     {({ ref, open }) => (
                       <Image
-                        width={451}
-                        height={375}
+                        width={734}
+                        height={510}
                         src={item}
                         ref={ref}
                         onClick={open}
@@ -84,7 +84,7 @@ const GalleryCruiseSlider = () => {
           slidesPerView={6}
           modules={[Thumbs]}
           spaceBetween={12}
-        >
+        > 
           {galleryImage.map((item, i) => (
             <SwiperSlide
               key={i}
