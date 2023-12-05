@@ -61,7 +61,8 @@
 
     img {
       width: 150px;
-      margin-left: 20px;
+      margin-left: 10px;
+      margin-top: 10px;
 
       @include media-below(md) {
         max-width: 150px;

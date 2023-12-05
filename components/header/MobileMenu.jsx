@@ -68,9 +68,9 @@ const MobileMenu = () => {
 
   return (
     <>
-      <div className="pro-header d-flex align-items-center justify-between border-bottom-light">
+      <div className="pro-header d-flex align-items-center justify-between border-bottom-light mt-10 ml-5">
         <Link href="/">
-        <img src="/img/general/Holidays_black.png" alt="logo icon" width="250" margin="400" />
+        <img src="/img/general/LK.svg" alt="logo icon" width="150" margin="400" />
         </Link>
         {/* End logo */}
 

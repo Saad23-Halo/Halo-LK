@@ -19,11 +19,11 @@ const Testimonial = () => {
         }}
         breakpoints={{
           500: {
-            slidesPerView: 2,
+            slidesPerView: 1,
             spaceBetween: 20,
           },
           768: {
-            slidesPerView: 2,
+            slidesPerView: 1,
             spaceBetween: 22,
           },
           1024: {
@@ -38,14 +38,17 @@ const Testimonial = () => {
           <SwiperSlide key={item.id}>
             <div
               className="testimonials -type-1 bg-white rounded-4 pt-40 pb-30 px-10"
+              style={{ height: "420px" }}
               key={item.id}
               data-aos="fade"
               data-aos-delay={item.dealyAnimation}
             >
+              <div style={{ height: "250px" }}>
               <h4 className="text-16 fw-500 text-blue-1 mb-20">{item.meta}</h4>
-              <p className="testimonials__text lh-16 fw-400 text-dark-1">
+              <p className="testimonials__text lh-16 fw-400 text-dark-1 ">
                 {item.text}
               </p>
+              </div>
               <div className="pt-20 mt-28 border-top-light">
                 <div className="row x-gap-20 y-gap-20 items-center">
                   <div className="col-auto">

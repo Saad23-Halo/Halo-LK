@@ -128,26 +128,48 @@ const ResultProperties = () => {
               </div>
               {/* End .col-md */}
 
-              <div className="col-md-auto text-right md:text-left">
-                <div className="row x-gap-10 y-gap-10 justify-end items-center md:justify-start">
-                  <div className="col-auto">
-                    <div className="text-14 lh-14 fw-500">Exceptional</div>
-                    
-                  </div>
-                  <div className="col-auto">
-                    <div className="flex-center text-white fw-600 text-14 size-40 rounded-4 bg-blue-1">
-                      {item?.ratings}
-                    </div>
-                  </div>
-                </div>
+              <div className="col-md-auto text-right md:text-left ">
+              <div className="row x-gap-10 y-gap-10 justify-end items-center">
+  {/* First Column - Hidden on Mobile */}
+  <div className="col-auto d-none d-sm-block">
+    <div className="text-14 lh-14 fw-500">Exceptional</div>
+  </div>
+  
+  {/* Second Column - Hidden on Mobile */}
+  <div className="col-auto d-none d-sm-block">
+    <div className="flex-center text-white fw-600 text-14 size-40 rounded-4 bg-blue-1">
+      {item?.ratings}
+    </div>
+  </div>
+</div>
 
-                <div className="mt-70">
-                  <div className="text-22 lh-12 fw-600 mt-5">
-                    LKR {item?.price}
-                  </div>
-                  <div className="text-14 text-light-1 mt-5">
-                  Tax inclusive
-                  </div>
+
+
+<div className="row">
+  {/* Pricing Information */}
+  <div className="col-8 col-md-12 mt-50">
+    <div className="text-22 lh-12 fw-600 mt-5">
+      LKR {item?.price}
+    </div>
+    <div className="text-14 text-light-1 mt-5">
+      Tax inclusive
+    </div>
+  </div>
+
+  {/* First Column - Hidden on Mobile */}
+  <div className="col-2 d-md-none mt-60">
+    <div className="text-14 lh-20 fw-500 mt-5">Exceptional</div>
+  </div>
+
+  {/* Second Column - Hidden on Mobile */}
+  <div className="col-2 d-md-none mt-60">
+    <div className="flex-center text-white fw-600 text-14 size-40 rounded-4 bg-blue-1">
+      {item?.ratings}
+    </div>
+  </div>
+
+
+                  
 
                   <Link
                     href={`/hotel-single-v1/${item.id}`}

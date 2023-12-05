@@ -10,7 +10,7 @@ const MainFilterSearchBox = () => {
           <LocationSearch />
           {/* End Location */}
 
-          <div className="searchMenu-date px-30 lg:py-20  sm:px-20 js-form-dd js-calendar">
+          <div className="searchMenu-date px-20 lg:py-20  sm:px-5 js-form-dd js-calendar">
             <div>
               <h4 className="text-15 fw-500 ls-2 lh-16">
                 Departure Date - Return Date
@@ -24,7 +24,7 @@ const MainFilterSearchBox = () => {
           {/* End guest */}
 
           <div className="button-item h-full">
-            <button className="button -dark-1 py-15 px-40 h-full col-12 rounded-0 bg-blue-1 text-white">
+            <button className="button -dark-1 py-15 px-80 h-full col-12 rounded-0 bg-blue-1 text-white">
               <i className="icon-search text-20 mr-10" />
               <a href="/search_results">Search</a>
             </button>

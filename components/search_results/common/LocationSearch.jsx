@@ -42,7 +42,7 @@ const SearchBar = () => {
 
   return (
     <>
-      <div className="searchMenu-loc px-30 lg:py-20 lg:px-0 js-form-dd js-liverSearch">
+      <div className="searchMenu-loc px-5 lg:py-20 lg:px-5 js-form-dd js-liverSearch">
         <div
           data-bs-toggle="dropdown"
           data-bs-auto-close="true"
