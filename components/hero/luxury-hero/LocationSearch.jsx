@@ -42,7 +42,7 @@ const LocationSearch = () => {
 
   return (
     <>
-      <div className="searchMenu-loc px-30 lg:py-20 lg:px-0 js-form-dd js-liverSearch">
+      <div className="searchMenu-loc px-15 lg:py-20 lg:px-0 js-form-dd js-liverSearch">
         <div
           data-bs-toggle="dropdown"
           data-bs-auto-close="true"
@@ -53,7 +53,7 @@ const LocationSearch = () => {
             <input
               autoComplete="off"
               type="search"
-              placeholder="Where are you going?"
+              placeholder="Ex: London (LHR)"
               className="js-search js-dd-focus"
               value={searchValue}
               onChange={(e) => setSearchValue(e.target.value)}

@@ -14,7 +14,7 @@ const MainFilterSearchBox = () => {
 
   return (
     <>
-      <div className="tabs -bookmark js-tabs">
+      {/* <div className="tabs -bookmark js-tabs">
         <div className="tabs__controls d-flex items-center js-tabs-controls">
           {tabs?.map((tab) => (
             <button
@@ -29,31 +29,32 @@ const MainFilterSearchBox = () => {
             </button>
           ))}
         </div>
-      </div>
+      </div> */}
 
-      <div className="tabs__content js-tabs-content">
-        <div className="mainSearch bg-white pr-20 py-20 lg:px-20 lg:pt-5 lg:pb-20 rounded-4">
+      <div className="tabs__content js-tabs-content pt-30">
+        <div className="mainSearch bg-white pr-5 py-10 lg:px-20 lg:pt-5 lg:pb-20 rounded-4">
           <div className="button-grid items-center">
             <LocationSearch />
             {/* End Location */}
 
-            <div className="searchMenu-date px-30 lg:py-20 lg:px-0 js-form-dd js-calendar">
+            <div className="searchMenu-date px-20 lg:py-20 lg:px-0 js-form-dd js-calendar">
               <div>
                 <h4 className="text-15 fw-500 ls-2 lh-16">
-                  Check in - Check out
+                Departure Date - Return Date
                 </h4>
                 <DateSearch />
               </div>
             </div>
             {/* End check-in-out */}
 
+            
             <GuestSearch />
             {/* End guest */}
 
             <div className="button-item">
               <button
-                className="mainSearch__submit button -dark-1 py-15 px-35 h-50 col-12 rounded-4 bg-blue-1 text-white"
-                onClick={() => Router.push("/hotel-list-v1")}
+                className="mainSearch__submit button -dark-1 py-15 px-30 h-50 col-12 rounded-4 bg-blue-1 text-white"
+                onClick={() => Router.push("/search_results")}
               >
                 <i className="icon-search text-20 mr-10" />
                 Search

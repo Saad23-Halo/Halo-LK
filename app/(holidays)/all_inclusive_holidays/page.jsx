@@ -11,7 +11,7 @@ import Testimonial from "@/components/home/home-2/Testimonial";
 import TestimonialRating from "@/components/home/home-2/TestimonialRating";
 import Travellers from "@/components/home/home-2/Travellers";
 import FilterHotels3 from "@/components/hotels/FilterHotels3";
-import BudgetHero from "@/components/hero/budget-hero";
+import BudgetHero from "@/components/hero/all-inclusive-hero";
 
 export const metadata = {
   title: "All Inclusive Holidays || Halo Flights LK - Here For You",

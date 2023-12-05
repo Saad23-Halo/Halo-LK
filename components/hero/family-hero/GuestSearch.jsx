@@ -64,32 +64,32 @@ const Counter = ({ name, defaultValue, onCounterChange }) => {
 const GuestSearch = () => {
   const [guestCounts, setGuestCounts] = useState({
     Adults: 2,
-    Children: 1,
+    Children: 2,
     Rooms: 1,
   });
   const handleCounterChange = (name, value) => {
     setGuestCounts((prevState) => ({ ...prevState, [name]: value }));
   };
   return (
-    <div className="searchMenu-guests px-30 lg:py-20 lg:px-0 js-form-dd js-form-counters position-relative">
+    <div className="searchMenu-guests px-20 lg:py-20 lg:px-0 js-form-dd js-form-counters position-relative">
       <div
         data-bs-toggle="dropdown"
         data-bs-auto-close="outside"
         aria-expanded="false"
         data-bs-offset="0,22"
       >
-        <h4 className="text-15 fw-500 ls-2 lh-16">Guest</h4>
+        <h4 className="text-15 fw-500 ls-2 lh-16">Passengers</h4>
         <div className="text-15 text-light-1 ls-2 lh-16">
           <span className="js-count-adult">{guestCounts.Adults}</span> adults -{" "}
           <span className="js-count-child">{guestCounts.Children}</span>{" "}
-          childeren - <span className="js-count-room">{guestCounts.Rooms}</span>{" "}
+          children - <span className="js-count-room">{guestCounts.Rooms}</span>{" "}
           room
         </div>
       </div>
       {/* End guest */}
 
       <div className="shadow-2 dropdown-menu min-width-400">
-        <div className="bg-white px-30 py-30 rounded-4 counter-box">
+        <div className="bg-white px-20 py-30 rounded-4 counter-box">
           {counters.map((counter) => (
             <Counter
               key={counter.name}

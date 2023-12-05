@@ -1,4 +1,6 @@
-const ReviewProgress = () => {
+import holidays from "@/data/holidays";
+
+const ReviewProgress = ({ holiday }) => {
   const reviewProgressContent = [
     { id: 1, reviewReason: "Location", ratings: "9.4", progressPercent: "90%" },
     { id: 2, reviewReason: "Staff", ratings: "8.4", progressPercent: "84%" },
@@ -35,7 +37,7 @@ const ReviewProgress = () => {
         <div className="col-lg-3">
           <div className="flex-center rounded-4 min-h-250 bg-blue-1-05">
             <div className="text-center">
-              <div className="text-60 md:text-50 fw-600 text-blue-1">4.8</div>
+              <div className="text-60 md:text-50 fw-600 text-blue-1">{holiday.ratings}</div>
               <div className="fw-500 lh-1">Exceptional</div>
               <div className="text-14 text-light-1 lh-1 mt-5">
                 3,014 reviews

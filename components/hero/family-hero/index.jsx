@@ -18,7 +18,7 @@ const Index = () => {
             >
              Family {" "}
               <span className="text-blue-1 relative">
-              Holidays{" "}
+               Holidays{" "}
                 <span className="-line">
                   <img src="/img/general/line.png" alt="image" />
                 </span>

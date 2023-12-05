@@ -146,7 +146,7 @@ const maldives = () => {
           </div>
           {/* End .row */}
 
-          <ReviewProgress />
+          <ReviewProgress holiday={holiday} />
           {/* End review with progress */}
 
           <div className="pt-40">
@@ -154,7 +154,7 @@ const maldives = () => {
             {/* End review with details */}
           </div>
 
-          <div className="row pt-30">
+          <div className="row pt-30 pb-30">
             <div className="col-auto">
               <a href="#" className="button -md -outline-blue-1 text-blue-1">
                 Show all reviews{" "}
@@ -169,30 +169,7 @@ const maldives = () => {
       </section>
       {/* End Review section */}
 
-      <section className="pt-40 layout-pb-md">
-        <div className="container">
-          <div className="row">
-            <div className="col-xl-8 col-lg-10">
-              <div className="row">
-                <div className="col-auto">
-                  <h3 className="text-22 fw-500">Leave a Reply</h3>
-                  <p className="text-15 text-dark-1 mt-5">
-                    Your email address will not be published.
-                  </p>
-                </div>
-              </div>
-              {/* End .row */}
-
-              {/* <ReplyFormReview />
-              End ReplyFormReview */}
-
-              <ReplyForm />
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* End Reply Comment box section */}
-
+      
       {/* End facilites section */}
 
       <CallToActions />

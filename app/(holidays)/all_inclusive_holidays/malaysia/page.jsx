@@ -137,7 +137,7 @@ const malaysia = () => {
       </section>
       {/* End MapPropertyFinder */}
 
-      <section id="hol-rev" className="pt-40">
+      <section id="hol-rev" className="pt-40 pb-30">
         <div className="container">
           <div className="row">
             <div className="col-12">
@@ -146,7 +146,7 @@ const malaysia = () => {
           </div>
           {/* End .row */}
 
-          <ReviewProgress />
+          <ReviewProgress holiday={holiday} />
           {/* End review with progress */}
 
           <div className="pt-40">
@@ -169,29 +169,6 @@ const malaysia = () => {
       </section>
       {/* End Review section */}
 
-      <section className="pt-40 layout-pb-md">
-        <div className="container">
-          <div className="row">
-            <div className="col-xl-8 col-lg-10">
-              <div className="row">
-                <div className="col-auto">
-                  <h3 className="text-22 fw-500">Leave a Reply</h3>
-                  <p className="text-15 text-dark-1 mt-5">
-                    Your email address will not be published.
-                  </p>
-                </div>
-              </div>
-              {/* End .row */}
-
-              {/* <ReplyFormReview />
-              End ReplyFormReview */}
-
-              <ReplyForm />
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* End Reply Comment box section */}
 
       {/* End facilites section */}
 
