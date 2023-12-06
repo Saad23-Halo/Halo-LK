@@ -6,7 +6,7 @@ import WhyChoose from "@/components/block/BlockGuide";
 import Address from "@/components/block/Address";
 import Social from "@/components/common/social/Social";
 import ContactForm from "@/components/common/ContactForm";
-import LocationTopBar from "@/components/common/LocationTopBar";
+import LocationTopBar from "@/components/contact/LocationTopBar";
 
 export const metadata = {
   title: "Contact || Halo Flights LK - Here For You",

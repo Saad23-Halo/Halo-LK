@@ -12,6 +12,7 @@ import TestimonialRating from "@/components/home/home-2/TestimonialRating";
 import Travellers from "@/components/home/home-2/Travellers";
 import FilterHotels3 from "@/components/hotels/FilterHotels3";
 import BudgetHero from "@/components/hero/all-inclusive-hero";
+import WhyChoose from "@/components/home/home-3/WhyChoose";
 
 export const metadata = {
   title: "All Inclusive Holidays || Halo Flights LK - Here For You",
@@ -31,14 +32,28 @@ const all_inclusive_holidays = () => {
       
       {/* End Hero 5 */}
 
-      <section className="layout-pt-lg layout-pb-md">
+      <section className="layout-pt-md layout-pb-md">
         <div className="container">
-          <div className="row y-gap-40 sm:y-gap-10 justify-between">
-            <BlockGuide />
+          <div className="row justify-center text-center">
+            <div className="col-auto">
+              <div className="sectionTitle -md">
+                <h2 className="sectionTitle__title">Why Choose Us</h2>
+                <p className=" sectionTitle__text mt-5 sm:mt-0">
+                  These popular destinations have a lot to offer
+                </p>
+              </div>
+            </div>
           </div>
+          {/* End .row */}
+
+          <div className="row y-gap-40 justify-between pt-50">
+            <WhyChoose />
+          </div>
+          {/* End row */}
         </div>
+        {/* End .container */}
       </section>
-      {/* End travel block sections */}
+      {/* End Why choose Section */}
 
       <section className="layout-pt-md layout-pb-md">
         <div className="container">

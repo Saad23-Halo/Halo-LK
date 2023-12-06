@@ -8,7 +8,7 @@ const Categories = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 7,
+    slidesToShow: 6,
     slidesToScroll: 1,
     responsive: [
       {
@@ -40,22 +40,26 @@ const Categories = () => {
   };
 
   const catContent = [
-    { id: 1, icon: "icon-bed", catName: "Hotel" },
-    { id: 2, icon: "icon-destination", catName: "Tour" },
-    { id: 4, icon: "icon-ski", catName: "Activity" },
-    { id: 5, icon: "icon-home", catName: "Holiday Rentals" },
-    { id: 5, icon: "icon-car", catName: "Car" },
-    { id: 6, icon: "icon-yatch", catName: " Cruise" },
-    { id: 7, icon: "icon-tickets", catName: " Flights" },
+    { id: 1, icon: "icon-nature", catName: "Family", catType: "Holidays", url: "/family_holidays" },
+    { id: 2, icon: "icon-destination", catName: "Multi-City", catType: "Holidays", url: "/multi_city_holidays" },
+    { id: 4, icon: "icon-home", catName: "Luxury", catType: "Holidays", url: "/luxury_holidays" },
+    { id: 5, icon: "icon-tickets", catName: "All Inclusive", catType: "Holidays", url: "/all_inclusive_holidays" },
+    { id: 5, icon: "icon-heart", catName: "Honeymoon", catType: "Holidays", url: "/honeymoon_holidays" },
+    { id: 6, icon: "icon-yatch", catName: " Cruise", catType: "Holidays", url: "/cruise_holidays" },
+    
   ];
   return (
     <Slider {...settings}>
       {catContent.map((item) => (
         <div className="col" key={item.id}>
-          <button className="d-flex flex-column justify-center px-20 py-15 rounded-4 border-light text-16 lh-14 fw-500 col-12">
+          <a href={item.url}>
+          <button className="d-flex flex-column justify-center px-10 py-15 rounded-4 border-light text-16 lh-14 fw-500 col-12">
             <i className={`${item.icon} text-25 mb-10`} />
-            {item.catName}
+            {item.catName} {item.catType}
+            
           </button>
+          </a>
+          
         </div>
       ))}
     </Slider>

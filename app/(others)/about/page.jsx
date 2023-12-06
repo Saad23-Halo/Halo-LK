@@ -32,7 +32,7 @@ const About = () => {
           <Image
             width={1920}
             height={400}
-            src="/img/pages/about/1.png"
+            src="/img/pages/about/3.png"
             alt="image"
             priority
           />
@@ -55,7 +55,7 @@ const About = () => {
       </section>
       {/* End About Banner Section */}
 
-      <section className="layout-pt-lg layout-pb-md">
+      <section className="layout-pb-md mt-50">
         <div className="container">
           <div className="row justify-center text-center">
             <div className="col-auto">
@@ -72,13 +72,14 @@ const About = () => {
           <div className="row y-gap-40 justify-between pt-50">
             <WhyChoose />
           </div>
+          <div className="border-bottom-light pb-40"/>
           {/* End .row */}
         </div>
         {/* End .container */}
       </section>
       {/* End Why Choose Us section */}
 
-      <section className="layout-pt-md">
+      <section className="">
         <div className="container">
           <div className="row y-gap-30 justify-between items-center">
             <Block1 />
@@ -87,18 +88,9 @@ const About = () => {
       </section>
       {/* End about block section */}
 
-      <section className="pt-60">
-        <div className="container">
-          <div className="border-bottom-light pb-40">
-            <div className="row y-gap-30 justify-center text-center">
-              <Counter />
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* End counter Section */}
+      
 
-      <section className="layout-pt-lg layout-pb-lg">
+      <section className="layout-pt-lg">
         <div className="container">
           <div className="row y-gap-20 justify-between items-end">
             <div className="col-auto">
@@ -112,7 +104,7 @@ const About = () => {
           </div>
           {/* End .row */}
 
-          <div className=" pt-40 js-section-slider">
+          <div className=" pt-20 js-section-slider">
             <div className="item_gap-x30">
               <Team1 />
             </div>
@@ -123,14 +115,25 @@ const About = () => {
       </section>
       {/* End team section */}
 
-      <section className="section-bg layout-pt-lg layout-pb-lg">
+      <section className="pt-50 pb-50">
+        <div className="container">
+          
+            <div className="row y-gap-30 justify-center text-center">
+              <Counter />
+            </div>
+          </div>
+        
+      </section>
+      {/* End counter Section */}
+
+      <section className="section-bg layout-pt-sm layout-pb-sm">
         <div className="section-bg__item -mx-20 bg-light-2" />
         <div className="container">
           <div className="row justify-center text-center">
             <div className="col-auto">
               <div className="sectionTitle -md">
                 <h2 className="sectionTitle__title">
-                  Overheard from travelers
+                  Overheard from Travelers
                 </h2>
                 <p className=" sectionTitle__text mt-5 sm:mt-0">
                   These popular destinations have a lot to offer
@@ -140,28 +143,11 @@ const About = () => {
           </div>
           {/* End .row */}
 
-          <div className="overflow-hidden pt-80 js-section-slider">
-            <div className="item_gap-x30">
-              <Testimonial />
-            </div>
+          <div className="relative mt-40 md:mt-40  position-relative">
+            <Testimonial />
           </div>
           {/* End .overflow-hidden */}
-
-          <div className="row y-gap-30 items-center pt-40 sm:pt-20">
-            <div className="col-xl-4">
-              <Counter2 />
-            </div>
-            {/* End .col */}
-
-            <div className="col-xl-8">
-              <div className="row y-gap-30 justify-between items-center">
-                <Brand />
-              </div>
-            </div>
-            {/* End .col */}
-          </div>
-          {/* End .row */}
-        </div>
+</div>
         {/* End .container */}
       </section>
       {/* End testimonial section */}

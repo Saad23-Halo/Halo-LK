@@ -41,7 +41,7 @@ const Team1 = () => {
       {
         breakpoint: 520,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
           dots: true,
         },
       },
@@ -86,7 +86,14 @@ const Team1 = () => {
               height={300}
               src={item.img}
               alt="image"
-              className="rounded-4 col-12"
+              className="rounded-4 col-12 d-none d-sm-block"
+            />
+            <Image
+              width={234}
+              height={300}
+              src={item.img}
+              alt="image"
+              className="size-180 rounded-4 col-12 d-md-none"
             />
             <div className="mt-10">
               <div className="text-18 lh-15 fw-500">{item.name}</div>

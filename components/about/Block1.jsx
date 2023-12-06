@@ -3,8 +3,20 @@ import Image from "next/image";
 const Block1 = () => {
   return (
     <>
-      <div className="col-lg-5">
-        <h2 className="text-30 fw-600">About GoTrip.com</h2>
+      <div className="col-lg-4 d-none d-sm-block">
+        <Image
+          width={100}
+          height={100}
+          src="/img/general/LK.svg"
+          alt="image"
+          className="rounded-4 w-100"
+        />
+      </div>
+      {/* End .col */}
+
+      
+      <div className="col-lg-7">
+        <h2 className="text-30 fw-600">About Halo Flights</h2>
         <p className="mt-5">These popular destinations have a lot to offer</p>
         <p className="text-dark-1 mt-60 lg:mt-40 md:mt-20">
           London is a shining example of a metropolis at the highest peak of
@@ -21,16 +33,16 @@ const Block1 = () => {
       </div>
       {/* End .col */}
 
-      <div className="col-lg-6">
+      {/* <div className="col-lg-4">
         <Image
-          width={400}
-          height={400}
-          src="/img/pages/about/2.png"
+          width={100}
+          height={100}
+          src="/img/general/LK.svg"
           alt="image"
           className="rounded-4 w-100"
         />
       </div>
-      {/* End .col */}
+      End .col */}
     </>
   );
 };

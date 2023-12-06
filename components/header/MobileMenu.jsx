@@ -171,7 +171,7 @@ const MobileMenu = () => {
 
             {/* <SubMenu label="Blog" className={ blogItems.some((item=>item.routePath?.split('/')[1] == pathname.split('/')[1])) ? "menu-active-link":''}> */}
               {/* {blogItems.map((item, i) => ( */}
-                <MenuItem
+                {/* <MenuItem
                   // key={i}
                   onClick={()=>router.push("/blog-list-v1")}
                   className={
@@ -181,12 +181,12 @@ const MobileMenu = () => {
                   }
                 >
                   Blog
-                </MenuItem>
+                </MenuItem> */}
               {/* ))} */}
             {/* </SubMenu> */}
             {/* End  All Blog Menu */}
 
-            <SubMenu label="Pages" className={ pageItems.some((item=>item.routePath?.split('/')[1] == pathname.split('/')[1])) ? "menu-active-link":''}>
+            <SubMenu label="More" className={ pageItems.some((item=>item.routePath?.split('/')[1] == pathname.split('/')[1])) ? "menu-active-link":''}>
               {pageItems.map((item, i) => (
                 <MenuItem
                   key={i}
@@ -203,7 +203,7 @@ const MobileMenu = () => {
             </SubMenu>
             {/* End  All Pages Menu */}
 
-            <SubMenu label="Dashboard" className={ pathname.split('/')[1] == 'dashboard'  || pathname.split('/')[1] == 'vendor-dashboard' ? "menu-active-link":''}>
+            {/* <SubMenu label="Dashboard" className={ pathname.split('/')[1] == 'dashboard'  || pathname.split('/')[1] == 'vendor-dashboard' ? "menu-active-link":''}>
               {dashboardItems.map((item, i) => (
                 <MenuItem
                   key={i}
@@ -218,9 +218,9 @@ const MobileMenu = () => {
                 </MenuItem>
               ))}
             </SubMenu>
-            {/* End  All Dashboard Menu */}
+            End  All Dashboard Menu */}
 
-            <MenuItem
+            {/* <MenuItem
              onClick={()=>router.push("/contact")}
              className={
               pathname === "/contact" ? "menu-active-link" : ""
@@ -229,7 +229,7 @@ const MobileMenu = () => {
             >
               Contact
             </MenuItem>
-            {/* End Contact  Menu */}
+            End Contact  Menu */}
           </Menu>
         </Sidebar>
 

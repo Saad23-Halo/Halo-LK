@@ -140,7 +140,7 @@ export const categorieMegaMenuItems = [
         // megaBanner: "/img/backgrounds/7.png",
         // title: "Things to do on your hotel",
         btnText: "See Family Deals ",
-        btnRoute: "/hotel-list-v1",
+        btnRoute: "/family_holidays",
         menuItems: [
           {
             id: 1,
@@ -148,15 +148,15 @@ export const categorieMegaMenuItems = [
             menuList: [
               {
                 name: "Family Deal 1",
-                routePath: "/cruise-single/2",
+                routePath: "/family_holidays/singapore",
               },
               {
                 name: "Family Deal 2",
-                routePath: "/cruise-single/2",
+                routePath: "/family_holidays/singapore",
               },
               {
                 name: "Family Deal 3",
-                routePath: "/cruise-single/2",
+                routePath: "/family_holidays/singapore",
               },
               
             ],
@@ -168,11 +168,11 @@ export const categorieMegaMenuItems = [
             menuList: [
               {
                 name: "Family Deal 4",
-                routePath: "/cruise-single/2",
+                routePath: "/family_holidays/singapore",
               },
               {
                 name: "Family Deal 5",
-                routePath: "/cruise-single/2",
+                routePath: "/family_holidays/singapore",
               }
             ],
           },
@@ -188,7 +188,7 @@ export const categorieMegaMenuItems = [
         // megaBanner: "/img/backgrounds/8.png",
         // title: "Things to do on your tour",
         btnText: "See All Inclusive Deals",
-        btnRoute: "/tour-list-v1",
+        btnRoute: "/all_inclusive_holidays",
         menuItems: [
           {
             id: 1,
@@ -196,15 +196,15 @@ export const categorieMegaMenuItems = [
             menuList: [
               {
                 name: "All Inclusive Deal 1",
-                routePath: "/cruise-single/2",
+                routePath: "/all_inclusive_holidays/malaysia",
               },
               {
                 name: "All Inclusive Deal 2",
-                routePath: "/cruise-single/2",
+                routePath: "/all_inclusive_holidays/malaysia",
               },
               {
                 name: "All Inclusive Deal 3",
-                routePath: "/cruise-single/2",
+                routePath: "/all_inclusive_holidays/malaysia",
               },
               
             ],
@@ -215,11 +215,11 @@ export const categorieMegaMenuItems = [
             menuList: [
               {
                 name: "All Inclusive Deal 4",
-                routePath: "/cruise-single/2",
+                routePath: "/all_inclusive_holidays/malaysia",
               },
               {
                 name: "All Inclusive Deal 5",
-                routePath: "/cruise-single/2",
+                routePath: "/all_inclusive_holidays/malaysia",
               },
             ],
           },
@@ -235,7 +235,7 @@ export const categorieMegaMenuItems = [
         // megaBanner: "/img/backgrounds/9.png",
         // title: "Things to do on your activity",
         btnText: "See Luxury Deals",
-        btnRoute: "/activity-list-v1",
+        btnRoute: "/luxury_holidays",
         menuItems: [
           {
             id: 1,
@@ -243,15 +243,15 @@ export const categorieMegaMenuItems = [
             menuList: [
               {
                 name: "Luxury Deal 1",
-                routePath: "/cruise-single/2",
+                routePath: "/luxury_holidays/dubai",
               },
               {
                 name: "Luxury Deal 2",
-                routePath: "/cruise-single/2",
+                routePath: "/luxury_holidays/dubai",
               },
               {
                 name: "Luxury Deal 3",
-                routePath: "/cruise-single/2",
+                routePath: "/luxury_holidays/dubai",
               },
               
             ],
@@ -261,11 +261,11 @@ export const categorieMegaMenuItems = [
             menuList: [
               {
                 name: "Luxury Deal 4",
-                routePath: "/cruise-single/2",
+                routePath: "/luxury_holidays/dubai",
               },
               {
                 name: "Luxury Deal 5",
-                routePath: "/cruise-single/2",
+                routePath: "/luxury_holidays/dubai",
               },
             ],
           },
@@ -281,7 +281,7 @@ export const categorieMegaMenuItems = [
         // megaBanner: "/img/backgrounds/10.png",
         // title: "Things to do on your rentals",
         btnText: "See Honeymoon Deals",
-        btnRoute: "/rental-list-v1",
+        btnRoute: "/honeymoon_holidays",
         menuItems: [
           {
             id: 1,
@@ -289,15 +289,15 @@ export const categorieMegaMenuItems = [
             menuList: [
               {
                 name: "Honeymoon Deal 1",
-                routePath: "/cruise-single/2",
+                routePath: "/honeymoon_holidays/maldives",
               },
               {
                 name: "Honeymoon Deal 2",
-                routePath: "/cruise-single/2",
+                routePath: "/honeymoon_holidays/maldives",
               },
               {
                 name: "Honeymoon Deal 3",
-                routePath: "/cruise-single/2",
+                routePath: "/honeymoon_holidays/maldives",
                 
               }
             ],
@@ -308,12 +308,12 @@ export const categorieMegaMenuItems = [
             menuList: [
               {
                 name: "Honeymoon Deal 4",
-                routePath: "/cruise-single/2",
+                routePath: "/honeymoon_holidays/maldives",
                 
               },
               {
                 name: "Honeymoon Deal 5",
-                routePath: "/cruise-single/2",
+                routePath: "/honeymoon_holidays/maldives",
                 
               },
             ],
@@ -330,7 +330,7 @@ export const categorieMegaMenuItems = [
         // megaBanner: "/img/backgrounds/5.png",
         // title: "Things to do on your Next Car",
         btnText: "See Multi-City Deals",
-        btnRoute: "/car-list-v1",
+        btnRoute: "/multi_city_holidays",
         menuItems: [
           {
             id: 1,
@@ -338,16 +338,16 @@ export const categorieMegaMenuItems = [
             menuList: [
               {
                 name: "Multi-City Deal 1",
-                routePath: "/cruise-single/2",
+                routePath: "/multi_city_holidays/bangkok_and_phuket",
                 
               },
               {
                 name: "Multi-City Deal 2",
-                routePath: "/cruise-single/2",
+                routePath: "/multi_city_holidays/bangkok_and_phuket",
               },
               {
                 name: "Multi-City Deal 3",
-                routePath: "/cruise-single/2",
+                routePath: "/multi_city_holidays/bangkok_and_phuket",
               },
             ],
           },
@@ -357,11 +357,11 @@ export const categorieMegaMenuItems = [
             menuList: [
               {
                 name: "Multi-City 4",
-                routePath: "/cruise-single/2",
+                routePath: "/multi_city_holidays/bangkok_and_phuket",
               },
               {
                 name: "Multi-City 5",
-                routePath: "/cruise-single/2",
+                routePath: "/multi_city_holidays/bangkok_and_phuket",
               },
             ],
           },
@@ -377,7 +377,7 @@ export const categorieMegaMenuItems = [
         // megaBanner: "/img/backgrounds/5.png",
         // title: "Things to do on your Next Car",
         btnText: "See Cruise Deals",
-        btnRoute: "/car-list-v1",
+        btnRoute: "/cruise_holidays",
         menuItems: [
           {
             id: 1,
@@ -385,16 +385,16 @@ export const categorieMegaMenuItems = [
             menuList: [
               {
                 name: "Cruise Deal 1",
-                routePath: "/cruise-single/2",
+                routePath: "/cruise_holidays/singapore_cruise",
                 
               },
               {
                 name: "Cruise Deal 2",
-                routePath: "/cruise-single/2",
+                routePath: "/cruise_holidays/singapore_cruise",
               },
               {
                 name: "Cruise Deal 3",
-                routePath: "/cruise-single/2",
+                routePath: "/cruise_holidays/singapore_cruise",
               },
             ],
           },
@@ -404,11 +404,11 @@ export const categorieMegaMenuItems = [
             menuList: [
               {
                 name: "Cruise Deal 4",
-                routePath: "/cruise-single/2",
+                routePath: "/cruise_holidays/singapore_cruise",
               },
               {
                 name: "Cruise Deal 5",
-                routePath: "/cruise-single/2",
+                routePath: "/cruise_holidays/singapore_cruise",
               },
             ],
           },
@@ -426,49 +426,49 @@ export const categorieMobileItems = [
     menuList: [
       {
         name: "Family Deal 1 ",
-        routePath: "/cruise-list-v2",
+        routePath: "/family_holidays/singapore",
       },
       {
         name: "Family Deal 2 ",
-        routePath: "/cruise-list-v2",
+        routePath: "/family_holidays/singapore",
       },
       {
         name: "Family Deal 3 ",
-        routePath: "/cruise-list-v2",
+        routePath: "/family_holidays/singapore",
       },
       {
         name: "Family Deal 4 ",
-        routePath: "/cruise-list-v2",
+        routePath: "/family_holidays/singapore",
       },
       {
         name: "Family Deal 5 ",
-        routePath: "/cruise-list-v2",
+        routePath: "/family_holidays/singapore",
       },
     ],
   },
   {
     id: 2,
-    title: "Budget",
+    title: "All Inclusive",
     menuList: [
       {
-        name: "Budget Deal 1",
-        routePath: "/cruise-list-v2",
+        name: "All Inclusive Deal 1",
+        routePath: "/all_inclusive_holidays/malaysia",
       },
       {
-        name: "Budget Deal 2",
-        routePath: "/cruise-list-v2",
+        name: "All Inclusive Deal 2",
+        routePath: "/all_inclusive_holidays/malaysia",
       },
       {
-        name: "Budget Deal 3",
-        routePath : "/cruise-list-v2",
+        name: "All Inclusive Deal 3",
+        routePath : "/all_inclusive_holidays/malaysia",
       },
       {
-        name: "Budget Deal 4",
-        routePath: "/cruise-list-v2", 
+        name: "All Inclusive Deal 4",
+        routePath: "/all_inclusive_holidays/malaysia", 
       },
        {
-        name: "Budget Deal 5",
-        routePath: "/cruise-deal-v2",
+        name: "All Inclusive Deal 5",
+        routePath: "/all_inclusive_holidays/malaysia",
        }
     ],
   },
@@ -478,23 +478,23 @@ export const categorieMobileItems = [
     menuList: [
       {
         name: "Luxury Deal 1",
-        routePath: "/cruise-list-v2",
+        routePath: "/luxury_holidays/dubai",
       },
       {
         name: "Luxury Deal 2",
-        routePath: "/cruise-list-v2",
+        routePath: "/luxury_holidays/dubai",
       },
       {
         name: "Luxury Deal 3",
-        routePath: "/cruise-list-v2",
+        routePath: "/luxury_holidays/dubai",
       },
       {
         name: "Luxury Deal 4",
-        routePath: "/cruise-deal-v2",
+        routePath: "/luxury_holidays/dubai",
       },
       {
         name: "Luxury Deal 5",
-        routePath: "/cruise-deal-v2",
+        routePath: "/luxury_holidays/dubai",
       }
     ],
   },
@@ -504,23 +504,23 @@ export const categorieMobileItems = [
     menuList: [
       {
         name: "Honeymoon Deal 1",
-        routePath: "/cruise-list-v2",
+        routePath: "/honeymoon_holidays/maldives",
       },
       {
         name: "Honeymoon Deal 2",
-        routePath: "/cruise-list-v2",
+        routePath: "/honeymoon_holidays/maldives",
       },
       {
         name: "Honeymoon Deal 3",
-        routePath: "/cruise-list-v2",
+        routePath: "/honeymoon_holidays/maldives",
       },
       {
         name: "Honeymoon Deal 4",
-        routePath: "/cruise-list-v2",
+        routePath: "/honeymoon_holidays/maldives",
       },
       {
         name: "Honeymoon Deal 5",
-        routePath: "/cruise-list-v2",
+        routePath: "/honeymoon_holidays/maldives",
       }
     ],
   },
@@ -530,23 +530,23 @@ export const categorieMobileItems = [
     menuList: [
       {
         name: "Multi-City Deal 1",
-        routePath: "/cruise-list-v2",
+        routePath: "/multi_city_holidays/bangkok_and_phuket",
       },
       {
         name: "Multi-City Deal 2",
-        routePath: "/cruise-list-v2",
+        routePath: "/multi_city_holidays/bangkok_and_phuket",
       },
       {
         name: "Multi-City  Deal 3",
-        routePath: "/cruise-list-v2", 
+        routePath: "/multi_city_holidays/bangkok_and_phuket", 
       },
       {
         name: "Multi-City Deal 4",
-        routePath: "/cruise-list-v2",
+        routePath: "/multi_city_holidays/bangkok_and_phuket",
       },
       {
         name: "Multi-City Deal 5",
-        routePath: "/cruise-list-v2",
+        routePath: "/multi_city_holidays/bangkok_and_phuket",
       }
     ],
   },
@@ -556,23 +556,23 @@ export const categorieMobileItems = [
     menuList: [
       {
         name: "Cruise Deal 1",
-        routePath: "/cruise-list-v2",
+        routePath: "/cruise_holidays/singapore_cruise",
       },
       {
         name: "Cruise Deal 2",
-        routePath: "/cruise-list-v2",
+        routePath: "/cruise_holidays/singapore_cruise",
       },
       {
         name: "Cruise Deal 3",
-        routePath: "/cruise-list-v2",
+        routePath: "/cruise_holidays/singapore_cruise",
       },
       {
         name: "Cruise Deal 4",
-        routePath: "/cruise-list-v2",
+        routePath: "/cruise_holidays/singapore_cruise",
       },
       {
         name: "Cruise Deal 5",
-        routePath: "/cruise-list-v2",
+        routePath: "/cruise_holidays/singapore_cruise",
       }
     ],
   },

@@ -37,8 +37,8 @@ const Testimonial = () => {
         {testimonial2.map((item) => (
           <SwiperSlide key={item.id}>
             <div
-              className="testimonials -type-1 bg-white rounded-4 pt-40 pb-30 px-10"
-              style={{ height: "420px" }}
+              className="testimonials -type-1 bg-white rounded-8 pt-40 pb-30 px-10" 
+              style={{ height: "410px" }}
               key={item.id}
               data-aos="fade"
               data-aos-delay={item.dealyAnimation}
@@ -49,7 +49,7 @@ const Testimonial = () => {
                 {item.text}
               </p>
               </div>
-              <div className="pt-20 mt-28 border-top-light">
+              <div className="pt-20 mt-40 border-top-light">
                 <div className="row x-gap-20 y-gap-20 items-center">
                   <div className="col-auto">
                     <Image
@@ -57,7 +57,7 @@ const Testimonial = () => {
                       height={60}
                       src={item.avatar}
                       alt="image"
-                      className="size-60"
+                      className="size-40 ml-10"
                     />
                   </div>
                   <div className="col-auto">

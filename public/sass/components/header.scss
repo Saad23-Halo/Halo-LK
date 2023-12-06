@@ -556,3 +556,19 @@
 .header .header-menu .menu-item-has-children .mega a {
   font-weight: 400;
 }
+/* Add this to your CSS file or style tag */
+.image-with-opacity {
+  position: absolute;
+  
+}
+
+.image-with-opacity::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom, rgba(85, 84, 85, 0.247), transparent);
+  z-index: 1;
+}
