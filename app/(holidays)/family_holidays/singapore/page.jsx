@@ -15,6 +15,7 @@ import CallToActions from "@/components/common/CallToActions";
 import DefaultFooter from "@/components/footer/default";
 import MapPropertyFinder from "@/components/holidays/singapore/MapPropertyFinder";
 import GalleryCruiseSlider from "@/components/holidays/singapore/GalleryCruiseSlider";
+import TopDestinations2 from "@/components/destinations/TopDestinations2";
 
 export const metadata = {
   title: "Singapore || Halo Holidays - Here For You",
@@ -168,6 +169,30 @@ const singapore = () => {
         {/* End container */}
       </section>
       {/* End Review section */}
+
+      <section className="layout-pt-md pb-20">
+        <div className="container">
+          <div className="row y-gap-20">
+            <div className="col-auto">
+              <div className="sectionTitle -md">
+                <h2 className="sectionTitle__title">
+                  Similar Destinations
+                </h2>
+                <p className=" sectionTitle__text mt-5 sm:mt-0">
+                  These popular destinations have a lot to offer
+                </p>
+              </div>
+            </div>
+          </div>
+          {/* End .row */}
+
+          <div className="pt-40 relative">
+            <TopDestinations2 />
+          </div>
+        </div>
+        {/* End .container */}
+      </section>
+      {/* End top destinations */}
 
       
 

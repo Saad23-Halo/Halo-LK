@@ -23,12 +23,12 @@ module.exports = [
     id: 3,
     title: "Holidays",
     menuList: [
-      { name: "Family", routerPath: "/" },
-      { name: "Budget", routerPath: "/" },
-      { name: "Luxury", routerPath: "/" },
-      { name: "Honeymoon", routerPath: "/" },
-      { name: "Multi-City", routerPath: "/" },
-      { name: "Cruise", routerPath: "/" },
+      { name: "Family Holidays", routerPath: "/family_holidays" },
+      { name: "All Inclusive Holidays", routerPath: "/all_inclusive_holidays" },
+      { name: "Luxury Holidays", routerPath: "/luxury_holidays" },
+      { name: "Honeymoon Holidays", routerPath: "/honeymoon_holidays" },
+      { name: "Multi-City Holidays", routerPath: "/multi_city_holidays" },
+      { name: "Cruise Holidays", routerPath: "/cruise_holidays" },
     ],
   },
 ];
