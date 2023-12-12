@@ -64,15 +64,15 @@ const MainMenu = ({ style = "" }) => {
         </li>
         {/* End Destinatinos single menu */}
 
-        <li
+        {/* <li
           className={`${
             isActiveParentChaild(blogItems, pathname) ? "current" : ""
           } menu-item-has-children`}
         >
           <a href="/blog-list-v1">
-            <span className="mr-10">Blog</span>
+            <span className="mr-10">Blog</span> */}
             {/* <i className="icon icon-chevron-sm-down" /> */}
-          </a>
+          {/* </a> */}
           {/* <ul className="subnav">
             {blogItems.map((menu, i) => (
               <li
@@ -85,7 +85,7 @@ const MainMenu = ({ style = "" }) => {
               </li>
             ))}
           </ul> */}
-        </li>
+        {/* </li> */}
         {/* End blogIems */}
 
         <li

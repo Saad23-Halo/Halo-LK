@@ -74,7 +74,7 @@ const Header1 = () => {
                 <div className="d-flex items-center ml-20 is-menu-opened-hide md:d-none">
                   <Link
                     href="tel:1302522656"
-                    className="button px-30 fw-500 text-14 -blue-1 bg-blue-1 h-50 text-white"
+                    className="button px-30 fw-500 text-14 -dark-1 bg-blue-1 h-50 text-white"
                   >
                     Call Us Now
                   </Link>

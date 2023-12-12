@@ -5,7 +5,7 @@ import DefaultFooter from "@/components/footer/default";
 import TopDestinations2 from "@/components/destinations/TopDestinations2";
 import Faq from "@/components/faq/Faq";
 import TestimonialLeftCol from "@/components/home/home-1/TestimonialLeftCol";
-import Testimonial from "@/components/home/home-1/Testimonial";
+import Testimonial from "@/components/destinations/Testimonial";
 import Link from "next/link";
 import Slights from "@/components/block/Slights";
 import Blog from "@/components/blog/Blog3";
@@ -162,38 +162,38 @@ const Destinations = () => {
       </section>
       {/* End Top sights in London */}
 
-      <section className="layout-pt-lg layout-pb-lg bg-light-2">
+      <section className="section-bg layout-pt-sm layout-pb-sm">
+        <div className="section-bg__item -mx-20 bg-light-2" />
         <div className="container">
-          <div className="row y-gap-40 justify-between">
-            <div className="col-xl-5 col-lg-6" data-aos="fade-up">
-              <TestimonialLeftCol />
-            </div>
-            {/* End col */}
-
-            <div className="col-lg-6">
-              <div
-                className="overflow-hidden js-testimonials-slider-3"
-                data-aos="fade-up"
-                data-aos-delay="50"
-              >
-                <Testimonial />
+          <div className="row justify-center text-center">
+            <div className="col-auto">
+              <div className="sectionTitle -md">
+                <h2 className="sectionTitle__title">
+                  Overheard from Travelers
+                </h2>
+                <p className=" sectionTitle__text mt-5 sm:mt-0">
+                  These popular destinations have a lot to offer
+                </p>
               </div>
             </div>
           </div>
           {/* End .row */}
-        </div>
-        {/* End container */}
+
+          <div className="relative mt-40 md:mt-40  position-relative">
+            <Testimonial />
+          </div>
+          {/* End .overflow-hidden */}
+</div>
+        {/* End .container */}
       </section>
-      {/* End testimonial Section */}
+      {/* End testimonial section */}
 
       <section className="layout-pt-lg layout-pb-md">
         <div className="container">
           <div className="row y-gap-20">
             <div className="col-lg-4">
               <h2 className="text-30 fw-500">
-                FAQs about
-                <br />
-                London
+                FAQs
               </h2>
             </div>
             {/* End .col */}

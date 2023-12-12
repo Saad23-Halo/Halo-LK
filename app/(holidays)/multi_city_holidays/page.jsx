@@ -5,7 +5,7 @@ import Footer2 from "@/components/footer/footer-2";
 import Header3 from "@/components/header/header-3";
 import MultiCityHero from "@/components/hero/multi-city-hero/";
 import AppBanner from "@/components/home/home-2/AppBanner";
-import BlockGuide from "@/components/home/home-2/BlockGuide";
+import WhyChoose from "@/components/home/home-3/WhyChoose";
 import CallToActions from "@/components/home/home-2/CallToActions";
 import Subscribe from "@/components/home/home-2/Subscribe";
 import Testimonial from "@/components/home/home-2/Testimonial";
@@ -29,14 +29,28 @@ const multi_city_holidays = () => {
       <MultiCityHero />
       {/* End Hero 2 */}
 
-      <section className="layout-pt-lg layout-pb-md">
+      <section className="layout-pt-md layout-pb-md">
         <div className="container">
-          <div className="row y-gap-40 sm:y-gap-10 justify-between">
-            <BlockGuide />
+          <div className="row justify-center text-center">
+            <div className="col-auto">
+              <div className="sectionTitle -md">
+                <h2 className="sectionTitle__title">Why Choose Us</h2>
+                <p className=" sectionTitle__text mt-5 sm:mt-0">
+                  These popular destinations have a lot to offer
+                </p>
+              </div>
+            </div>
           </div>
+          {/* End .row */}
+
+          <div className="row y-gap-40 justify-between pt-50">
+            <WhyChoose />
+          </div>
+          {/* End row */}
         </div>
+        {/* End .container */}
       </section>
-      {/* End travel block sections */}
+      {/* End Why choose Section */}
 
       <section className="layout-pt-md layout-pb-md">
         <div className="container">

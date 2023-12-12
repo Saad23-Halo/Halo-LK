@@ -49,7 +49,7 @@ const Contact = () => {
       </section>
       {/* End contact section form */}
 
-      <section className="layout-pt-md layout-pb-lg">
+      <section className="layout-pt-md">
         <div className="container">
           <div className="row x-gap-80 y-gap-20 justify-between">
             <div className="col-12">
@@ -75,7 +75,7 @@ const Contact = () => {
       </section>
       {/* End Address Section */}
 
-      <section className="layout-pt-lg layout-pb-md">
+      <section className="pt-50 pb-120">
         <div className="container">
           <div className="row justify-center text-center">
             <div className="col-auto">

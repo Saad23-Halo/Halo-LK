@@ -27,7 +27,7 @@ const Testimonial = () => {
         >
           {testimonial2.slice(0, 3).map((item) => (
             <SwiperSlide key={item.id}>
-              <div className="testimonials -type-1 bg-white rounded-4 pt-40 pb-30 px-40 shadow-2">
+              <div className="testimonials -type-1 bg-white rounded-4 pt-40 pb-30 px-30 shadow-2">
                 <div>
                   <h4 className="text-16 fw-500 text-blue-1 mb-20">
                     {item.meta}

@@ -3,9 +3,9 @@
 
 import React, { useState } from "react";
 const counters = [
-  { name: "Adults", defaultValue: 2 },
-  { name: "Children", defaultValue: 1 },
-  { name: "Rooms", defaultValue: 1 },
+  { name: "Adults", defaultValue: 0 },
+  { name: "Children", defaultValue: 0 },
+  { name: "Rooms", defaultValue: 0 },
 ];
 
 const Counter = ({ name, defaultValue, onCounterChange }) => {
@@ -71,14 +71,14 @@ const GuestSearch = () => {
     setGuestCounts((prevState) => ({ ...prevState, [name]: value }));
   };
   return (
-    <div className="searchMenu-guests px-20 lg:py-20 lg:px-0 js-form-dd js-form-counters position-relative">
+    <div className="searchMenu-guests px-30 lg:py-20 lg:px-0 js-form-dd js-form-counters position-relative">
       <div
         data-bs-toggle="dropdown"
         data-bs-auto-close="outside"
         aria-expanded="false"
         data-bs-offset="0,22"
       >
-        <h4 className="text-15 fw-500 ls-2 lh-16">Passengers</h4>
+        <h4 className="text-15 fw-500 ls-2 lh-17">No. of Passengers</h4>
         <div className="text-15 text-light-1 ls-2 lh-16">
           <span className="js-count-adult">{guestCounts.Adults}</span> adults -{" "}
           <span className="js-count-child">{guestCounts.Children}</span>{" "}
@@ -89,7 +89,7 @@ const GuestSearch = () => {
       {/* End guest */}
 
       <div className="shadow-2 dropdown-menu min-width-400">
-        <div className="bg-white px-20 py-30 rounded-4 counter-box">
+        <div className="bg-white px-30 py-30 rounded-4 counter-box">
           {counters.map((counter) => (
             <Counter
               key={counter.name}

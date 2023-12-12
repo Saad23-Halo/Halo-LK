@@ -16,6 +16,7 @@ import DefaultFooter from "@/components/footer/default";
 import MapPropertyFinder from "@/components/holidays/maldives/MapPropertyFinder";
 import GalleryCruiseSlider from "@/components/holidays/maldives/GalleryCruiseSlider";
 import TopDestinations2 from "@/components/destinations/TopDestinations2";
+import Banner from "@/components/holidays/Banner";
 
 export const metadata = {
   title: "Maldives || Halo Holidays - Here For You",

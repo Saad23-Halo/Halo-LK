@@ -56,9 +56,9 @@ const Travellers = () => {
                 <h4 className="text-18 lh-13 fw-500 text-dark-1">
                   {item.title}
                 </h4>
-                <div className="text-14 text-light-1">
+                {/* <div className="text-14 text-light-1">
                   {item.travellers} travellers
-                </div>
+                </div> */}
               </div>
             </Link>
           </SwiperSlide>

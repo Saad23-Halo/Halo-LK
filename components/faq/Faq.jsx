@@ -3,7 +3,7 @@ const Faq = () => {
     {
       id: 1,
       collapseTarget: "One",
-      title: "What do I need to hire a car?",
+      title: "Can I Make Changes Or Cancel My Booking With Halo Flights?",
       content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
             enim ad minim veniam, quis nostrud exercitation ullamco.`,
@@ -11,7 +11,7 @@ const Faq = () => {
     {
       id: 2,
       collapseTarget: "Two",
-      title: "How old do I have to be to rent a car?",
+      title: "What Payment Methods Are Accepted By Halo Flights?",
       content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
             enim ad minim veniam, quis nostrud exercitation ullamco.`,
@@ -19,7 +19,7 @@ const Faq = () => {
     {
       id: 3,
       collapseTarget: "Three",
-      title: "Can I book a hire car for someone else?",
+      title: "Is My Money Financially Protected?",
       content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
             enim ad minim veniam, quis nostrud exercitation ullamco.`,
@@ -27,7 +27,7 @@ const Faq = () => {
     {
       id: 4,
       collapseTarget: "Four",
-      title: "How do I find the cheapest car hire deal?",
+      title: "What Documents Do I Need To Travel?",
       content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
             enim ad minim veniam, quis nostrud exercitation ullamco.`,
@@ -35,7 +35,7 @@ const Faq = () => {
     {
       id: 5,
       collapseTarget: "Five",
-      title: "What should I look for when I'm choosing a car?",
+      title: "Are There Any Exclusive Deals Or Discounts Available?",
       content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
             enim ad minim veniam, quis nostrud exercitation ullamco.`,
