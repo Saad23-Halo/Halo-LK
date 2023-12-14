@@ -2,7 +2,7 @@ import dynamic from "next/dynamic";
 import CallToActions from "@/components/common/CallToActions";
 import Header3 from "@/components/header/header-3";
 import DefaultFooter from "@/components/footer/default";
-import WhyChoose from "@/components/block/BlockGuide";
+import WhyChoose from "@/components/home/home-3/WhyChoose"
 import Address from "@/components/block/Address";
 import Social from "@/components/common/social/Social";
 import ContactForm from "@/components/common/ContactForm";

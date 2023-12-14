@@ -5,29 +5,30 @@ const WhyChoose = () => {
     {
       id: 1,
       icon: "/img/featureIcons/1/24-hours-support.gif",
-      title: "Support from Start to Finish",
-      text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.`,
+      title: "Customer Support 24/7",
+      text: `
+      Always available for assistance, our customer support ensures timely help and satisfaction.`,
       delayAnimation: "100",
     },
     {
       id: 2,
       icon: "/img/featureIcons/2/pound-sterling.gif",
       title: "Unbeatable Prices",
-      text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.`,
+      text: `Providing unbeatable prices, our customer support ensures timely help and satisfaction.`,
       delayAnimation: "200",
     },
     { 
       id: 3,
       icon: "/img/featureIcons/3/space.gif",
-      title: "Unlimited Quotes",
-      text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.`,
+      title: "Pay in Instalments!",
+      text: `Facilitating payments in convenient instalments, our support ensures your financial ease and satisfaction.`,
       delayAnimation: "300",
     },
     {
       id : 4,
       icon: "/img/featureIcons/3/route.gif",
-      title : "Flexible Bookings",
-      text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit`,
+      title : "Visa Assistance",
+      text: `For seamless visa assistance, our customer support ensures efficient guidance and satisfaction.`,
       delayAnimation : "400", 
     }
   ];

@@ -19,10 +19,10 @@ const Block1 = () => {
         <h2 className="text-30 fw-600">About Halo Flights</h2>
         {/* <p className="mt-5">These popular destinations have a lot to offer</p> */}
         <p className="text-dark-1 mt-60 lg:mt-40 md:mt-20">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        HALO FLIGHTS LK is a premier online travel agency dedicated to providing a seamless and stress-free experience for booking your flights from Sri Lanka. We take pride in offering unparalleled service, ensuring that your travel needs are met with efficiency and precision. Whether you're traveling for business or leisure, planning a short getaway or an extended vacation, HALO FLIGHTS LK is here to cater to all your travel requirements.
           <br />
           <br />
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+          Our commitment to excellence is reflected in our vast selection of flights, designed to offer you the best options at affordable prices. With HALO FLIGHTS LK, you can trust that your journey will be comfortable, and our attentive service will provide you with the peace of mind you deserve. Discover the beauty of hassle-free travel with HALO FLIGHTS LK, where your satisfaction is our top priority.
         </p>
       </div>
       {/* End .col */}

@@ -1,17 +1,14 @@
 import dynamic from "next/dynamic";
-import Blog4 from "@/components/blog/Blog4";
-import Brand2 from "@/components/brand/Brand2";
-import Footer2 from "@/components/footer/footer-2";
+import DefaultFooter from "@/components/footer/default";
 import Header3 from "@/components/header/header-3";
-import MultiCityHero from "@/components/hero/multi-city-hero/";
-import AppBanner from "@/components/home/home-2/AppBanner";
-import WhyChoose from "@/components/home/home-3/WhyChoose";
-import CallToActions from "@/components/home/home-2/CallToActions";
-import Subscribe from "@/components/home/home-2/Subscribe";
-import Testimonial from "@/components/home/home-2/Testimonial";
-import TestimonialRating from "@/components/home/home-2/TestimonialRating";
+// import Hero5 from "@/components/hero/hero-5";
+import Testimonial from "@/components/destinations/Testimonial";
 import Travellers from "@/components/home/home-2/Travellers";
 import FilterHotels3 from "@/components/hotels/FilterHotels3";
+import MultiCityHero from "@/components/hero/multi-city-hero";
+import WhyChoose from "@/components/home/home-3/WhyChoose";
+import CallToActions from "@/components/common/CallToActions";
+import TopDestinations2 from "@/components/destinations/TopDestinations2";
 
 export const metadata = {
   title: "Multi-City Holidays || Halo Flights LK - Here For You",
@@ -103,73 +100,66 @@ const multi_city_holidays = () => {
 
       {/* End Best Seller Hotels Sections */}
 
-      <section className="layout-pt-lg layout-pb-lg bg-dark-3">
-        <div className="container">
-          <div className="row y-gap-60">
-            <div className="col-xl-5 col-lg-6">
-              <TestimonialRating />
-            </div>
-            {/* End .col */}
-
-            <div className="col-xl-4 offset-xl-2 col-lg-5 offset-lg-1 col-md-10">
-              <Testimonial />
-            </div>
-            {/* End .col */}
-          </div>
-          {/* End .row */}
-
-          <div className="row justify-center text-center pt-60">
-            <div className="col-auto">
-              <div className="text-15 lh-1 text-white">
-                Trusted by the world’s best
-              </div>
-            </div>
-          </div>
-          {/* End .row */}
-
-          <div className="px-40 md:px-0">
-            <div className="row y-gap-30 justify-between items-center pt-60 lg:pt-40">
-              <Brand2 />
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* End testimonial and brand sections Section */}
-
-      <section className="layout-pt-lg layout-pb-md">
+      <section className="section-bg layout-pt-sm layout-pb-sm">
+        <div className="section-bg__item -mx-20 bg-light-2" />
         <div className="container">
           <div className="row justify-center text-center">
             <div className="col-auto">
               <div className="sectionTitle -md">
                 <h2 className="sectionTitle__title">
-                  Get inspiration for your next trip
+                  Overheard from Travelers
                 </h2>
                 <p className=" sectionTitle__text mt-5 sm:mt-0">
-                  Interdum et malesuada fames
+                  These popular destinations have a lot to offer
                 </p>
               </div>
             </div>
           </div>
-          {/* End .row  */}
-          <div className="row y-gap-30 pt-40">
-            <Blog4 />
+          {/* End .row */}
+
+          <div className="relative mt-40 md:mt-40  position-relative">
+            <Testimonial />
+          </div>
+          {/* End .overflow-hidden */}
+</div>
+        {/* End .container */}
+      </section>
+      {/* End testimonial section */}
+
+      <section className="layout-pt-md pb-20">
+        <div className="container">
+          <div className="row y-gap-20">
+            <div className="col-auto">
+              <div className="sectionTitle -md">
+                <h2 className="sectionTitle__title">
+                  Popular Destinations
+                </h2>
+                <p className=" sectionTitle__text mt-5 sm:mt-0">
+                  These popular destinations have a lot to offer
+                </p>
+              </div>
+            </div>
           </div>
           {/* End .row */}
+
+          <div className="pt-40 relative">
+            <TopDestinations2 />
+          </div>
         </div>
         {/* End .container */}
       </section>
-      {/* End blog Section */}
+      {/* End top destinations */}
 
-      <Subscribe />
+      {/* <Subscribe /> */}
       {/* End Subscribe Section */}
 
-      <AppBanner />
+      {/* <AppBanner /> */}
       {/* End AppBanner Section */}
 
       <CallToActions />
       {/* End CallToActions Section */}
 
-      <Footer2 />
+      <DefaultFooter />
       {/* End Footer Section */}
     </>
   );

@@ -31,7 +31,7 @@ const HelpCenter = () => {
                   Welcome to the Help Center
                 </h2>
                 <p className=" sectionTitle__text mt-5 sm:mt-0">
-                  Lorem ipsum is placeholder text commonly used in site.
+                Where assistance and support are readily available for your needs.
                 </p>
               </div>
               {/* End .sectiontitle */}
@@ -58,7 +58,7 @@ const HelpCenter = () => {
                   Frequently Asked Questions
                 </h2>
                 <p className=" sectionTitle__text mt-5 sm:mt-0">
-                  Interdum et malesuada fames
+                Explore our Frequently Asked Questions section for comprehensive information and quick solutions.
                 </p>
               </div>
             </div>

@@ -1,14 +1,8 @@
 import dynamic from "next/dynamic";
-import Blog4 from "@/components/blog/Blog4";
-import Brand2 from "@/components/brand/Brand2";
 import DefaultFooter from "@/components/footer/default";
 import Header3 from "@/components/header/header-3";
 // import Hero5 from "@/components/hero/hero-5";
-import AppBanner from "@/components/home/home-2/AppBanner";
-import BlockGuide from "@/components/home/home-2/BlockGuide";
-import Subscribe from "@/components/home/home-2/Subscribe";
 import Testimonial from "@/components/destinations/Testimonial";
-import TestimonialRating from "@/components/home/home-2/TestimonialRating";
 import Travellers from "@/components/home/home-2/Travellers";
 import FilterHotels3 from "@/components/hotels/FilterHotels3";
 import BudgetHero from "@/components/hero/all-inclusive-hero";

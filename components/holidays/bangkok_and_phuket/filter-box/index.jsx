@@ -26,8 +26,23 @@ const HighlightList = () => {
           Enquire Now
         </button>
         </Link>
+        <div className="col-12 bg-blue-3 rounded-4 px-20 mt-10">
+      <div className="text-14 text-dark-1 text-center pb-10">
+        <div className="fw-5 00 underline">INSTALMENT PLANS</div>
+      </div>
+      <div className="text-13 text-dark-1">
+        <div className="fw-500">3 - Months from <span class="text-dark-4">LKR 113,000.00</span></div>
+      </div>
+      <div className="text-13 text-dark-1">
+        <div className="fw-500">6 - Months from <span class="text-dark-4">LKR 56,500.00</span></div>
+      </div>
+      <div className="text-13 text-dark-1">
+        <div className="fw-500">9 - Months from <span class="text-dark-4">LKR 37,666.67</span></div>
+      </div>
+      </div>
       </div>
       {/* End col-12 search button_item */}
+      
     </>
   );
 };
