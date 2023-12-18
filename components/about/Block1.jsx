@@ -22,7 +22,7 @@ const Block1 = () => {
         HALO FLIGHTS LK is a premier online travel agency dedicated to providing a seamless and stress-free experience for booking your flights from Sri Lanka. We take pride in offering unparalleled service, ensuring that your travel needs are met with efficiency and precision. Whether you're traveling for business or leisure, planning a short getaway or an extended vacation, HALO FLIGHTS LK is here to cater to all your travel requirements.
           <br />
           <br />
-          Our commitment to excellence is reflected in our vast selection of flights, designed to offer you the best options at affordable prices. With HALO FLIGHTS LK, you can trust that your journey will be comfortable, and our attentive service will provide you with the peace of mind you deserve. Discover the beauty of hassle-free travel with HALO FLIGHTS LK, where your satisfaction is our top priority.
+          Our commitment to excellence is reflected in our vast selection of flights, designed to offer you the best options at affordable prices. With HALO HOLIDAYS, you can trust that your journey will be comfortable, and our attentive service will provide you with the peace of mind you deserve. Discover the beauty of hassle-free travel with HALO HOLIDAYS, where your satisfaction is our top priority.
         </p>
       </div>
       {/* End .col */}

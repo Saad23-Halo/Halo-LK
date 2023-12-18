@@ -5,15 +5,16 @@ const WhyChoose = () => {
     {
       id: 1,
       icon: "/img/featureIcons/1/24-hours-support.gif",
-      title: "Customer Support 24/7",
-      text: `
-      Always available for assistance, our customer support ensures timely help and satisfaction.`,
+      title: "Customer Support",
+      tagline: "24/7",
+      text: `Always available for assistance, our customer support ensures timely help and satisfaction.`,
       delayAnimation: "100",
     },
     {
       id: 2,
       icon: "/img/featureIcons/2/pound-sterling.gif",
-      title: "Unbeatable Prices",
+      title: "Unbeatable",
+      tagline: "Prices",
       text: `Providing unbeatable prices, our customer support ensures timely help and satisfaction.`,
       delayAnimation: "200",
     },
@@ -27,7 +28,8 @@ const WhyChoose = () => {
     {
       id : 4,
       icon: "/img/featureIcons/3/route.gif",
-      title : "Visa Assistance",
+      title : "Visa",
+      tagline: "Assistance",
       text: `For seamless visa assistance, our customer support ensures efficient guidance and satisfaction.`,
       delayAnimation : "400", 
     }
