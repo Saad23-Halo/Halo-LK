@@ -33,7 +33,7 @@ const Header1 = () => {
             <div className="col-auto">
               <div className="d-flex items-center" >
                 <Link href="/" className="header-logo mr-20">
-                  <img src="/img/general/LK.svg" alt="logo icon" />
+                  <img src="/img/general/LK_Holidays.svg" alt="logo icon" />
                   <img src="/img/general/logo-dark.svg" alt="logo icon" />
                 </Link>
                 {/* End logo */}
@@ -68,7 +68,7 @@ const Header1 = () => {
                   {/* End Megamenu for Language */}
                 </div>
                 {/* End language and currency selector */}
-                <HeaderSearch />
+                {/* <HeaderSearch /> */}
 
                 {/* Start btn-group */}
                 <div className="d-flex items-center ml-20 is-menu-opened-hide md:d-none">
@@ -76,6 +76,7 @@ const Header1 = () => {
                     href="tel:1302522656"
                     className="button px-30 fw-500 text-14 -blue-1 bg-blue-1 h-50 text-white"
                   >
+                    
                     Call Us Now
                   </Link>
                 </div>

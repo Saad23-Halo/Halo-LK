@@ -1,12 +1,12 @@
 import dynamic from "next/dynamic";
 import CallToActions from "@/components/common/CallToActions";
-import DefaultHeader from "@/components/header/default-header";
+import DefaultHeader from "@/components/header/header-3";
 import DefaultFooter from "@/components/footer/default";
 import NotFound from "@/components/common/NotFound";
 
 export const metadata = {
-  title: "404 || GoTrip - Travel & Tour React NextJS Template",
-  description: "GoTrip - Travel & Tour React NextJS Template",
+  title: "404 || Halo Flights LK - Here For You",
+  description: "Halo Flights LK - Here For You",
 };
 
 const index = () => {

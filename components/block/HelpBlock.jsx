@@ -6,37 +6,38 @@ const HelpBlock = () => {
       id: 1,
       icon: "/img/pages/help/icons/1.svg",
       title: "Booking your activity",
-      text: `Lorem ipsum is placeholder text commonly used in site.`,
+      text: `
+      Ensuring a seamless and enjoyable experience.`,
     },
     {
       id: 2,
       icon: "/img/pages/help/icons/2.svg",
       title: "Payment & receipts",
-      text: `Lorem ipsum is placeholder text commonly used in site.`,
+      text: `Effortlessly manage your payments with our streamlined customer support.`,
     },
     {
       id: 3,
       icon: "/img/pages/help/icons/3.svg",
       title: "Booking changes & refunds",
-      text: `Lorem ipsum is placeholder text commonly used in site.`,
+      text: `Effortlessly handle booking changes and refunds. Ensuring a smooth process.`,
     },
     {
       id: 4,
       icon: "/img/pages/help/icons/4.svg",
       title: "Promo codes & credits",
-      text: `Lorem ipsum is placeholder text commonly used in site.`,
+      text: `Seamlessly managing promo codes and credits for a rewarding experience.`,
     },
     {
       id: 5,
       icon: "/img/pages/help/icons/5.svg",
       title: "On the participation day",
-      text: `Lorem ipsum is placeholder text commonly used in site.`,
+      text: `Ensuring a smooth and enjoyable experience, providing assistance as needed.`,
     },
     {
       id: 6,
       icon: "/img/pages/help/icons/6.svg",
       title: "Value Packs",
-      text: `Lorem ipsum is placeholder text commonly used in site.`,
+      text: `Explore our enticing Value Packs. Ensures a rewarding and cost-effective experience.`,
     },
   ];
   return (
